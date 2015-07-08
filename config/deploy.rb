@@ -3,6 +3,7 @@ lock '3.1.0'
 
 set :application, 'vps'
 set :repo_url, 'git@github.com:IvanSelivanov/vps.git'
+set :branch, 'master'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
